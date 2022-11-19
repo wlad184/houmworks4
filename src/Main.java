@@ -33,5 +33,18 @@ public class Main {
         }
         System.out.println();
 
+        //task #4
+        int deliveryDistance = 550;
+        if (deliveryDistance < 20) {
+            System.out.println("Сутки");
+        }else if (deliveryDistance >= 20 && deliveryDistance < 60) {
+                System.out.println("Двое суток");
+            } else {
+            System.out.println(" трое суток");
+        }
+
+
+
+
     }
 }
