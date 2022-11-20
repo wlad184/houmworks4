@@ -40,7 +40,39 @@ public class Main {
         }else if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Двое суток");
             } else {
-            System.out.println(" трое суток");
+            System.out.println("трое суток");
+            System.out.println();
+
+        }
+
+        //task #5
+        int mounthNamber = 13;
+        switch (mounthNamber){
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Некоректно введенное число");
+
+
+
         }
 
 
